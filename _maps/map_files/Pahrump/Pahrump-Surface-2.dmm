@@ -14433,7 +14433,7 @@
 /obj/item/tank/internals/anesthetic,
 /obj/item/tank/internals/anesthetic,
 /obj/item/tank/internals/anesthetic,
-/obj/item/disk/surgery/brainwashing,
+/obj/item/disk/surgery/oasis,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/city)
 "kiq" = (
@@ -23011,6 +23011,12 @@
 /obj/structure/table/wood/settler,
 /turf/open/floor/wood/f13/stage_tl,
 /area/f13/wasteland)
+"qwu" = (
+/obj/structure/closet/crate/trashcart{
+	name = "corpse cart"
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/city)
 "qxA" = (
 /obj/structure/toilet{
 	pixel_y = 13
@@ -26946,6 +26952,19 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/item/locked_box/weapon/range/tier3,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
+/area/f13/city)
+"tnZ" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "clinicdesk";
+	name = "counter shutters"
+	},
+/obj/structure/table/reinforced,
+/obj/structure/barricade/bars,
+/obj/item/paper_bin,
+/turf/open/floor/f13{
+	icon_state = "bluedirtychess2";
+	tag = "icon-bluedirtychess2"
+	},
 /area/f13/city)
 "tom" = (
 /obj/structure/toilet{
@@ -31541,7 +31560,7 @@
 "wFf" = (
 /obj/machinery/door/airlock/medical{
 	name = "Clinic";
-	req_one_access_txt = "25"
+	req_one_access_txt = "133"
 	},
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/city)
@@ -31578,7 +31597,7 @@
 "wHu" = (
 /obj/machinery/door/airlock/medical{
 	name = "Clinic";
-	req_one_access_txt = "25"
+	req_one_access_txt = "133"
 	},
 /obj/machinery/door/poddoor/shutters{
 	id = "clinicfrontdoor";
@@ -51076,7 +51095,7 @@ sgr
 wSC
 wSC
 wSC
-wad
+tnZ
 wad
 wSC
 wSC
@@ -52366,7 +52385,7 @@ wSC
 iGN
 iGN
 cNH
-iGN
+qwu
 wSC
 pjQ
 cpL
