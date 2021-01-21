@@ -24,7 +24,6 @@ jobs:
           bash tools/ci/install_node.sh
           bash tools/ci/install_spaceman_dmm.sh dreamchecker
           tools/bootstrap/python -c ''
-          ldd libbyond-extools.so
       - name: Run Linters
         run: |
           bash tools/ci/check_filedirs.sh tgstation.dme
@@ -62,7 +61,7 @@ jobs:
           bash tools/ci/dm.sh -DCIBUILDING -DCITESTING -DALL_MAPS tgstation.dme
 
   run_all_tests:
-    if: "false && !contains(github.event.head_commit.message, '[ci skip]')"
+    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     name: Integration Tests
     runs-on: ubuntu-latest
     services:
@@ -87,11 +86,21 @@ jobs:
           mysql -u root -proot tg_ci < SQL/tgstation_schema.sql
           mysql -u root -proot -e 'CREATE DATABASE tg_ci_prefixed;'
           mysql -u root -proot tg_ci_prefixed < SQL/tgstation_schema_prefixed.sql
-      - name: Install rust-g
+      - name: Install bsql
         run: |
           sudo dpkg --add-architecture i386
-          sudo apt update || true
-          sudo apt install libssl1.1:i386
+          sudo apt-get update || true
+          sudo apt-get install libmariadb-client-lgpl-dev:i386
+          sudo apt-get install libmariadbd-dev
+          sudo apt-get install build-essential
+          sudo apt-get install gcc-multilib
+          sudo apt-get install g++-multilib
+          sudo apt-get install gcc-4.8-multilib
+          sudo apt-get install g++-4.8-multilib
+          bash tools/ci/build_bsql.sh
+      - name: Install rust-g
+        run: |
+          sudo apt-get install libssl1.1:i386
           bash tools/ci/install_rust_g.sh
       - name: Compile and run tests
         run: |
