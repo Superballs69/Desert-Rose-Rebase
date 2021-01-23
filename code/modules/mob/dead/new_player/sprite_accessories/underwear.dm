@@ -16,7 +16,6 @@
 	has_color = TRUE
 	gender = MALE
 
-/*
 /datum/sprite_accessory/underwear/bottom/boxers
 	name = "Boxers"
 	icon_state = "boxers"
@@ -24,15 +23,16 @@
 	has_digitigrade = TRUE
 	gender = MALE
 
-/datum/sprite_accessory/underwear/bottom/male_bee
-	name = "Boxers - Bee"
-	icon_state = "bee_shorts"
-	has_digitigrade = TRUE
-	gender = MALE
-
 /datum/sprite_accessory/underwear/bottom/male_hearts
 	name = "Boxers - Heart"
 	icon_state = "boxers_heart"
+	has_digitigrade = TRUE
+	gender = MALE
+	
+/*
+/datum/sprite_accessory/underwear/bottom/male_bee
+	name = "Boxers - Bee"
+	icon_state = "bee_shorts"
 	has_digitigrade = TRUE
 	gender = MALE
 
