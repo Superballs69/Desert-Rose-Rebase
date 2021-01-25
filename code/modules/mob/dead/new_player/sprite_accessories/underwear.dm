@@ -36,6 +36,7 @@
 	has_digitigrade = TRUE
 	gender = MALE
 
+/*
 /datum/sprite_accessory/underwear/bottom/male_stripe
 	name = "Boxers - Striped"
 	icon_state = "boxers_striped"
