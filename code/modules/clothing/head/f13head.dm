@@ -289,11 +289,25 @@
 	item_state = "tesla"
 	armor = list("melee" = 90, "bullet" = 50, "laser" = 95, "energy" = 95, "bomb" = 62, "bio" = 100, "rad" = 100, "fire" = 90, "acid" = 0)
 
-/obj/item/clothing/head/helmet/f13/power_armor/t51b
-	name = "T-51b power helmet"
-	desc = "It's a T-51b power helmet, typically used by the Brotherhood. It looks somewhat charming."
-	icon_state = "t51bhelmet"
-	item_state = "t51bhelmet"
+/obj/item/clothing/head/helmet/f13/power_armor/wbos
+	name = "Washington power helmet"
+	desc = "It's a Washington Brotherhood power helmet. It looks somewhat terrifying."
+	icon_state = "t51wboshelmeticon"
+	item_state = "t51wboshelmet"
+	armor = list("melee" = 70, "bullet" = 65, "laser" = 55, "energy" = 65, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0)
+
+/obj/item/clothing/head/helmet/f13/power_armor/wbos/mk2
+	name = "advanced Washington power helmet"
+	desc = "It's an improved model of the power armor helmet used exclusively by the Washington Brotherhood, designed to induce fear in a target."
+	icon_state = "t51wboshelmeticon"
+	item_state = "t51wboshelmet"
+	armor = list("melee" = 90, "bullet" = 90, "laser" = 60, "energy" = 90, "bomb" = 72, "bio" = 100, "rad" = 100, "fire" = 90, "acid" = 0)
+
+/obj/item/clothing/head/helmet/f13/power_armor/reforgedwbos
+	name = "reforged Washington power helmet"
+	desc = "It's a reforged Washington Brotherhood power helmet, designed to induce fear in a target."
+	icon_state = "t51matthelmeticon"
+	item_state = "t51matthelmet"
 	armor = list("melee" = 70, "bullet" = 65, "laser" = 55, "energy" = 65, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0)
 
 /obj/item/clothing/head/helmet/f13/power_armor/t51b/ultra
@@ -752,7 +766,7 @@
 	desc = "This helmet once belonged to the Mid Western branch of the Brotherhood of Steel now residing wherever it's user currently is situated. This particular one has gone through a chemical hardening process, increasing it's armor capabilities."
 	icon_state = "midwestpa_helm"
 	item_state = "midwestpa_helm"
-	
+
 /obj/item/clothing/head/helmet/f13/jasonmask
 	name = "jasons mask"
 	desc = "A metal mask made specifically for jason."

@@ -315,6 +315,30 @@
 	slowdown = 0.15 //+0.1 from helmet = total 0.25
 	armor = list("melee" = 70, "bullet" = 65, "laser" = 55, "energy" = 65, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0)
 
+/obj/item/clothing/suit/armor/f13/power_armor/wbos
+	name = "Washington power armor"
+	desc = "A dark mirror to the pinnacle of pre-war technology. This suit of power armor provides substantial protection to the wearer."
+	icon_state = "t51wbosicon"
+	item_state = "t51wbos"
+	slowdown = 0.15 //+0.1 from helmet = total 0.25
+	armor = list("melee" = 70, "bullet" = 65, "laser" = 55, "energy" = 65, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0)
+
+/obj/item/clothing/suit/armor/f13/power_armor/reforgedwbos
+	name = "reforged Washington power armor"
+	desc = "A dark mirror to the pinnacle of pre-war technology, reforged. This suit of power armor provides substantial protection to the wearer."
+	icon_state = "t51matticon"
+	item_state = "t51matt"
+	slowdown = 0.15 //+0.1 from helmet = total 0.25
+	armor = list("melee" = 70, "bullet" = 65, "laser" = 55, "energy" = 65, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0)
+
+/obj/item/clothing/suit/armor/f13/power_armor/wbos/mk2
+	name = "advanced Washington power armor"
+	desc = "It's an improved model of the power armor used exclusively by the Washington Brotherhood."
+	icon_state = "apawbosicon"
+	item_state = "apawbos"
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS
+	armor = list("melee" = 90, "bullet" = 90, "laser" = 60, "energy" = 90, "bomb" = 72, "bio" = 100, "rad" = 100, "fire" = 90, "acid" = 0)
+
 /obj/item/clothing/suit/armor/f13/power_armor/t51b/ultra
 	name = "Ultracite power armor"
 	desc = "The pinnacle of pre-war technology. This suit of power armor provides substantial protection to the wearer. Now ultracite enhanced."
