@@ -335,6 +335,13 @@
 	var/brightness_on = 4 //luminosity when the light is on
 	var/on = 0
 
+/obj/item/clothing/head/helmet/f13/power_armor/t51b
+	name = "T-51b power helmet"
+	desc = "It's a T-51b power helmet, typically used by the Brotherhood. It looks somewhat charming."
+	icon_state = "t51bhelmet"
+	item_state = "t51bhelmet"
+	armor = list("melee" = 70, "bullet" = 65, "laser" = 55, "energy" = 65, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0)
+
 /obj/item/clothing/head/helmet/f13/power_armor/t45d/gunslinger
 	name = "Gunslinger T-51b Helm"
 	desc = "With most of the external plating stripped to allow for internal thermal and night vision scanners, as well as aided targeting assist via onboard systems, this helm provides much more utility then protection. To support these systems, secondary power cells were installed into the helm, and covered with a stylish hat."
