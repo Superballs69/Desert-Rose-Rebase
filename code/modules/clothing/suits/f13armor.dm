@@ -335,12 +335,14 @@
 	desc = "(X) A dark mirror to the pinnacle of pre-war technology. This suit of power armor provides substantial protection to the wearer."
 	icon_state = "t51wbos"
 	item_state = "t51wbos"
+	armor = list("tier" = 10, "energy" = 65, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0)
 
 /obj/item/clothing/suit/armor/f13/power_armor/t51b/reforgedwbos
 	name = "reforged Washington power armor"
 	desc = "(X) A dark mirror to the pinnacle of pre-war technology, reforged. This suit of power armor provides substantial protection to the wearer."
 	icon_state = "t51matt"
 	item_state = "t51matt"
+	armor = list("tier" = 10, "energy" = 65, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0)
 
 /obj/item/clothing/suit/armor/f13/power_armor/t51b/ultra
 	name = "Ultracite power armor"
@@ -348,6 +350,7 @@
 	icon_state = "ultracitepa"
 	item_state = "ultracitepa"
 	slowdown = 0
+	armor = list("tier" = 10, "energy" = 65, "bomb" = 62, "bio" = 100, "rad" = 99, "fire" = 90, "acid" = 0)
 
 /obj/item/clothing/suit/armor/f13/power_armor/t60
 	name = "T-60a power armor"
@@ -393,6 +396,7 @@
 	desc = "It's an improved model of the power armor used exclusively by the Washington Brotherhood."
 	icon_state = "apawbos"
 	item_state = "apawbos"
+	armor = list("linemelee" = 400, "linebullet" = 400, "linelaser" = 400, "energy" = 90, "bomb" = 72, "bio" = 100, "rad" = 100, "fire" = 90, "acid" = 0)
 
 /obj/item/clothing/suit/armor/f13/power_armor/tesla
 	name = "tesla power armor"
