@@ -371,7 +371,6 @@
 	pocket_storage_component_path = /datum/component/storage/concrete/pockets/shoes
 	lace_time = 8 SECONDS
 
-// kevin is into feet
 /obj/item/clothing/shoes/wraps
 	name = "gilded leg wraps"
 	desc = "Ankle coverings. These ones have a golden design."

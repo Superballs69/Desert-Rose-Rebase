@@ -722,6 +722,7 @@
 	icon_state = "bodyguard"
 	item_state = "sl_suit"
 	item_color = "bodyguard"
+	armor = list("tier" = 1, "energy" = 15, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 10, "acid" = 0)
 
 /obj/item/clothing/under/f13/westender
 	name = "classic tender outfit"

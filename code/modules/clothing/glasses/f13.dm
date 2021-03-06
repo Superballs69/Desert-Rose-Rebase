@@ -36,7 +36,7 @@
 	armor = list(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 100, rad = 100, fire = 100, acid = 100)
 
 /obj/item/clothing/glasses/thermal/f13/enclave
-	name = "\improper pilot goggles"
+	name = "improper pilot goggles"
 	desc = "Heat-sensitive goggles commonly worn by Enclave vertibird pilots."
 	icon_state = "enclavegoggles"
 	item_state = "enclavegoggles"
@@ -48,7 +48,7 @@
 	armor = list(melee = 10, bullet = 10, laser = 10, energy = 10, bomb = 10, bio = 10, rad = 10, fire = 10, acid = 10)
 
 /obj/item/clothing/glasses/science/f13/steampunk
-	name = "\improper goggles"
+	name = "improper goggles"
 	desc = "If the legends are true, these goggles belonged to a genius alchemist.<br>Or maybe it's just a steampunk enthusiast's cherished toy."
 	icon_state = "steampunk"
 	item_state = "glasses"
